@@ -6,7 +6,7 @@ print(str(hora)+':'+str(minutos)+':'+str(segundos))
 
 print('{}:{}:{}'.format(hora,minutos,segundos))
 
-#Fomatar saída intuitiva cm printf
+#Fomatar saída intuitiva com printf
 print(f'{hora}:{minutos}:{segundos}')
 
 #Especificar largura
