@@ -9,4 +9,4 @@ def regressiva(X):
         else:
             print(X)
             regressiva(X-1)
-            
+                
