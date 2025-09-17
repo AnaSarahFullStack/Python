@@ -10,3 +10,4 @@ qr = qrcode.QRCode(filetype=qr_string)
 
 #Gerar e salvar como PNG
 qr.png('qrcode_gerado.png' , scale=8
+
