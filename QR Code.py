@@ -1,6 +1,12 @@
 import pyqrcode
 import png
-from pyqrcode import QRCode
-QRstring = "......................." # colar url #
-url = pyqrcode.create( QRsrting)
-url.png( 'Desktop\\qr.png', scale = 8)
+from qrcode import QRCode
+
+# String com a URL ou texto que você quer transformar em QR Code
+qr_string = "https://www.exemplo.com" # Substitua pela sua URL
+
+# Criar objeto QRCode
+qr = qrcode.QRCode(filetype=qr_string)
+
+#Gerar e salvar como PNG
+qr.png('qrcode_gerado.png' , scale=8
